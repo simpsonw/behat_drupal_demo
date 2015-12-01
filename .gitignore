@@ -1,3 +1,5 @@
 tests/bin/*
 tests/vendor/*
 tests/composer.lock
+tests/behat.local.yml
+drupal/*
