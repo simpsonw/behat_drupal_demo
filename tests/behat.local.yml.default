@@ -1,0 +1,9 @@
+default:
+  extensions:
+    Behat\MinkExtension:
+      # Enter the HTTP path to your Drupal root
+      base_url: '%%baseurl%%'
+    Drupal\DrupalExtension:
+      drupal:
+        # Enter the filesystem path to your Drupal root
+        drupal_root: %%drupalroot%%
