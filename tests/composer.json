@@ -9,11 +9,6 @@
     },
     "config": {
         "bin-dir": "bin/"
-    },
-    "autoload": {
-        "psr-4": {
-            "UA\\Libraries\\Mainsite\\Tests\\": "features/bootstrap/"
-        }
     }
 }
 
