@@ -9,3 +9,15 @@ default:
           goutte: ~
         javascript:
           selenium2: ~
+      javascript_session: javascript
+      files_path: %paths.base%/features/bootstrap/Fixtures/
+    Drupal\DrupalExtension:
+      blackbox: ~
+      api_driver: 'drupal'
+  suites:
+    default:
+      paths: [ %paths.base%/features/integration ]
+      contexts:
+        - Drupal\DrupalExtension\Context\MessageContext
+        - Drupal\DrupalExtension\Context\DrushContext
+        - Drupal\DrupalExtension\Context\DrupalContext
