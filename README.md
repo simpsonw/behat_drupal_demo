@@ -13,9 +13,9 @@ This tutorial has been tested on Linux Mint 17.1 and should probably work on Mac
 
 Installation
 ============
-0. Clone this repository into a directory Apache will server.  For the purposes of this README, we will assume `/var/www/behat_drupal_demo`.
+0. Clone this repository into a directory Apache will serve.  For the purposes of this README, we will assume `/var/www/behat_drupal_demo`.
 1. Create an empty database in MySQL.  For the purposes of this README, we will refer to this database as `behat_drupal_demo`.
-2. Go to the root directory of the repo in a Terminal: `cd /var/www/behat_drupal_demo`
+2. Go to the root directory of the repo in a terminal: `cd /var/www/behat_drupal_demo`
 3. Install the Drupal site using `drush make drupal.make drupal --prepare-install`
 4. Visit your Drupal site in the browser and follow the installation instructions.
 5. Visit the tests directory `cd tests`
