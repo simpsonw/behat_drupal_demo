@@ -24,7 +24,7 @@ Installation
 8. Open `behat.local.yml` in a text editor and set `base_url` to the base URL of your Drupal installation (we will assume `http://localhost/behat_drupal_demo/drupal`) and set  `drupal_root` to the base file path of your Drupal installation (we will assume `/var/www/behat_drupal_demo/drupal`).
 
 
-Testing behat
+Testing Behat
 =======================
 The Behat binary will be installed in `/tests/bin`.  You can view a list of the available defined steps by doing:
 
