@@ -22,3 +22,15 @@ Installation
 6. Install the needed components with Composer: `composer install`.
 7. Copy `behat.local.yml.default` to `behat.local.yml`.
 8. Open `behat.local.yml` in a text editor and set `base_url` to the base URL of your Drupal installation (we will assume `http://localhost/behat_drupal_demo/drupal`) and set  `drupal_root` to the base file path of your Drupal installation (we will assume `/var/www/behat_drupal_demo/drupal`).
+
+
+Testing behat
+=======================
+The Behat binary will be installed in `/tests/bin`.  You can view a list of the available defined steps by doing:
+
+`cd tests`
+`bin/behat -dl`
+
+You must be in the `tests` directory to run the Behat executable, otherwise you will get an exception.
+
+To view detailed information about where a step is defined, run `behat -di`
