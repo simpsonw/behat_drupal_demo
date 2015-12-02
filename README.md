@@ -7,7 +7,7 @@ Requirements
 * Apache
 * Drush (https://github.com/drush-ops/drush)
 * Composer (https://getcomposer.org/)
-* Selenium Standalone Server (http://www.seleniumhq.org/download/)
+* Selenium Standalone Server (http://www.seleniumhq.org/download/) (Optional)
 
 This tutorial has been tested on Linux Mint 17.1 and should probably work on Mac OS X as well.  It will probably work on Windows with some modification, but there may be some snags.
 
