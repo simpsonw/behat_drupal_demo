@@ -4,6 +4,9 @@ Requirements
 =============
 * PHP 5.3.2+
 * MySQL
+* PHP PDO Driver for MySQL
+* PHP gd extension
+* PHP curl library
 * Apache
 * Drush (https://github.com/drush-ops/drush)
 * Composer (https://getcomposer.org/)
