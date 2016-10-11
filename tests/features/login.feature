@@ -6,4 +6,4 @@ Given users:
 | name    | mail                      |
 | dracula | dracula@email.arizona.edu |
 And I am logged in as "dracula"
-Then I should see the message "Hello, dracula!" 
+Then I should see the success message "Hello, dracula!"

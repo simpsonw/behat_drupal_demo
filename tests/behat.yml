@@ -13,6 +13,10 @@ default:
     Drupal\DrupalExtension:
       blackbox: ~
       api_driver: 'drupal'
+      selectors:
+        message_selector: '.messages'
+        error_message_selector: '.messages.messages-error'
+        success_message_selector: '.messages.messages-status'
   suites:
     default:
        contexts:
