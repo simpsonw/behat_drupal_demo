@@ -1,9 +1,0 @@
-{ "rules_greet_users_on_login" : {
-    "LABEL" : "Greet Users On Login",
-    "PLUGIN" : "reaction rule",
-    "OWNER" : "rules",
-    "REQUIRES" : [ "rules" ],
-    "ON" : { "user_login" : [] },
-    "DO" : [ { "drupal_message" : { "message" : "Hello, [site:current-user]!" } } ]
-  }
-}
