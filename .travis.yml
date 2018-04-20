@@ -1,0 +1,12 @@
+language: php
+mysql: 
+  database: drupal 
+  username: root 
+  encoding: utf8
+install:
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  # Install Drush
+  - composer global require drush/drush:dev-master
+  - phpenv rehash
+  - mysql -e 'create database drupal;'
+  - drush make drupal.make drupal --prepare-install
